@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "c078a7e2-f313-4e1d-93ff-062319183d2e"
+      }
+    },
+    "owner": "dalvhikki",
+    "slug": "expo-todo-app"
+  }
+}
