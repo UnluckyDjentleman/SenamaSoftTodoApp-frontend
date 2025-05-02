@@ -5,7 +5,17 @@
         "projectId": "c078a7e2-f313-4e1d-93ff-062319183d2e"
       }
     },
+    "entryPoint":"./App.tsx",
     "owner": "dalvhikki",
-    "slug": "expo-todo-app"
+    "slug": "expo-todo-app",
+    "android": {
+      "package": "com.dalvhikki.expotodoapp"
+    },
+    "ios": {
+      "bundleIdentifier": "com.dalvhikki.expotodoapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
   }
 }

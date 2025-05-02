@@ -1,15 +1,14 @@
-import './App.css';
 import { Alert, ConfigProvider, Divider } from 'antd';
-import useGetTodoItems from './utils/hooks/useGetTodoItems';
-import { useAppSelector } from './utils/hooks/useRedux';
-import Loader from './components/shared/loader/loader';
-import TodoItemComponent from './components/todoItem/todoItemComponent';
-import Header from './components/header/header';
-import ButtonComponent from './components/shared/button/buttonComponent';
-import ModalComponent from './components/shared/modal/modalComponent';
+import useGetTodoItems from './src/utils/hooks/useGetTodoItems';
+import { useAppSelector } from './src/utils/hooks/useRedux';
+import Loader from './src/components/shared/loader/loader';
+import TodoItemComponent from './src/components/todoItem/todoItemComponent';
+import Header from './src/components/header/header';
+import ButtonComponent from './src/components/shared/button/buttonComponent';
+import ModalComponent from './src/components/shared/modal/modalComponent';
 import { useRef, useState } from 'react';
-import TodoItem from './constants/todoItem';
-import FilterString from './constants/filterString';
+import TodoItem from './src/constants/todoItem';
+import FilterString from './src/constants/filterString';
 
 function App() {
   const filter=useAppSelector(state=>state.filter.filter);
